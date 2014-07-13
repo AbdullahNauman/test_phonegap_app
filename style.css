@@ -1,0 +1,18 @@
+body{ 
+    
+    background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTqmqUi22C1JewjEYmQnHFRX5Ls5MU_lqppCHOF_oBkUsSZNZ7");
+    h1{ 
+      
+      text-align: center;
+      
+    }
+    }
+</style>
+<script type = "text/javascript">   
+        
+        function click() { 
+          
+            var name = prompt("Edit Header"); 
+            document.getElementById("header").INNERhtml= "" + name;  
+                
+          }
