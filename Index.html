@@ -1,7 +1,34 @@
 <!DOCTYPE html> 
 <head> 
+<style type = "text.css"> 
+  body{ 
+    
+    background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTqmqUi22C1JewjEYmQnHFRX5Ls5MU_lqppCHOF_oBkUsSZNZ7");
+    #h1, p{ 
+      
+      text-align: center;
+      
+    }
+    }
+</style>
+<script type = "text/javascript">   
+        
+        function click() { 
+          
+            var name = prompt("Edit Header"); 
+            document.getElementById("header").INNERhtml= "" + name;  
+                
+          }
+
+</script>
+  
 </head> 
 <body>  
-<h1> Hello World </h1> 
+<font-color = "red"> 
+<h1 id = "header"> Hello World </h1> 
+<p> Hello This is my First App using the <br> PhoneGap, app programming system</p>
+  <input type = "button" value = "click me" onclick = "click()">  
+  
+</font-color>
 </body> 
 </html> 
